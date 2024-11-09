@@ -1,0 +1,167 @@
+/*#region Reset and common styles*/
+body {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+button {
+  cursor: pointer;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+/*#endregion */
+
+/*#region Header*/
+.logo-accent {
+  color: #2e2f42;
+}
+
+.header-nav-link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: #404bbf;
+}
+
+.header-contacts-link {
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: #404bbf;
+}
+/*#endregion */
+
+/*#region Hero */
+.hero {
+  background-color: #2e2f42;
+  text-align: center;
+}
+
+.main-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.hero-button {
+  background-color: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+/*#endregion */
+
+/*#region About*/
+.about-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.about-text {
+  letter-spacing: 0.02em;
+}
+/*#endregion */
+
+/*#region Team*/
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-card {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.team-card-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.team-card-description {
+  letter-spacing: 0.02em;
+}
+/*#endregion */
+
+/*#region Portfolio*/
+.portfolio-card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio-card-description {
+  letter-spacing: 0.02em;
+}
+/*#endregion */
+
+/*#region Footer*/
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer .logo-accent {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+/*#endregion */
+
+/*#region */
+/*#endregion */
