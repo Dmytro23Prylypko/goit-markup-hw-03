@@ -41,6 +41,20 @@ img {
   max-width: 100%;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .container {
   max-width: 1158px;
   padding: 0 15px;
@@ -69,6 +83,10 @@ img {
 /*#endregion */
 
 /*#region Header*/
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -131,7 +149,7 @@ img {
 }
 
 .main-title {
-  width: 496px;
+  max-width: 496px;
   margin: 0 auto 48px;
   font-family: "Roboto", sans-serif;
   font-size: 56px;
@@ -141,8 +159,10 @@ img {
 }
 
 .hero-button {
+  display: block;
   min-width: 169px;
   min-height: 56px;
+  margin: 0 auto;
   border-radius: 4px;
   padding: 16px 32px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -170,6 +190,10 @@ img {
 }
 
 .about-card {
+  flex-basis: calc((100% - 3 * 24) / 4);
+}
+
+.about-card:first-child {
   flex-basis: calc((100% - 3 * 24) / 4);
 }
 
@@ -202,7 +226,6 @@ img {
 .team-card {
   flex-basis: calc((100% - 3 * 24) / 4);
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
   flex-shrink: 0;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -210,8 +233,12 @@ img {
   text-align: center;
 }
 
-.team-card-image {
+/* .team-card-image {
   margin-bottom: 32px;
+} */
+
+.team-card-box {
+  padding: 32px 0;
 }
 
 .team-card-subtitle {
@@ -265,13 +292,13 @@ img {
 
 /*#region Footer*/
 .footer {
-  padding: 100px 0 101px;
+  padding: 100px 0;
   background-color: #2e2f42;
 }
 
 .footer-logo {
-  display: block;
-  margin-bottom: 16.5px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer .logo-accent {
