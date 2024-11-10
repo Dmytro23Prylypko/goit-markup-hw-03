@@ -190,11 +190,7 @@ img {
 }
 
 .about-card {
-  flex-basis: calc((100% - 3 * 24) / 4);
-}
-
-.about-card:first-child {
-  flex-basis: calc((100% - 3 * 24) / 4);
+  flex-basis: calc((100%-3 * 24) / 4);
 }
 
 .about-subtitle {
